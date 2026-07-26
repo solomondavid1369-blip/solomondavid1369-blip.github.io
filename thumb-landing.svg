@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" width="480" height="300" role="img" aria-label="Responsive landing page preview"><defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#16213e"/><stop offset="1" stop-color="#0f3460"/></linearGradient>
+  <radialGradient id="glow" cx="0.5" cy="0.4" r="0.6"><stop offset="0" stop-color="#e94560" stop-opacity="0.20"/><stop offset="1" stop-color="#e94560" stop-opacity="0"/></radialGradient>
+</defs><rect width="480" height="300" fill="url(#bg)"/><circle cx="240" cy="150" r="150" fill="url(#glow)"/>
+  <rect x="80" y="46" width="320" height="208" rx="12" fill="#0a1120" stroke="#2a3b52" stroke-width="2"/>
+  <rect x="80" y="46" width="320" height="26" rx="12" fill="#111a30"/>
+  <circle cx="98" cy="59" r="4" fill="#e94560"/><circle cx="114" cy="59" r="4" fill="#3a4a66"/><circle cx="130" cy="59" r="4" fill="#3a4a66"/>
+  <rect x="104" y="96" width="130" height="16" rx="4" fill="#f1f1f1"/>
+  <rect x="104" y="120" width="90" height="16" rx="4" fill="#e94560"/>
+  <rect x="104" y="150" width="150" height="7" rx="3" fill="#33425e"/>
+  <rect x="104" y="164" width="120" height="7" rx="3" fill="#33425e"/>
+  <rect x="104" y="188" width="70" height="22" rx="6" fill="#e94560"/>
+  <rect x="272" y="96" width="96" height="120" rx="10" fill="#131d34" stroke="#2a3b52"/>
+  <circle cx="320" cy="140" r="20" fill="#1b2740"/><rect x="292" y="172" width="56" height="8" rx="4" fill="#2a3b52"/>
+</svg>
