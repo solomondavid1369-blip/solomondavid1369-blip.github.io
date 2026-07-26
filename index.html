@@ -686,6 +686,74 @@
             gap: 0.8rem;
         }
 
+        /* Testimonials Section */
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+            max-width: 680px;
+            margin: 0 auto;
+        }
+
+        .testimonial-card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 16px;
+            padding: 2.5rem 2rem;
+            transition: all 0.3s ease;
+        }
+
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--highlight);
+        }
+
+        .testimonial-card .quote-icon {
+            color: var(--highlight);
+            font-size: 1.6rem;
+            opacity: 0.5;
+            margin-bottom: 1rem;
+        }
+
+        .testimonial-card .quote-text {
+            color: var(--text);
+            font-size: 1rem;
+            font-style: italic;
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .testimonial-avatar {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background: rgba(233, 69, 96, 0.1);
+            border: 1px solid var(--card-border);
+            color: var(--highlight);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 1rem;
+            flex-shrink: 0;
+        }
+
+        .testimonial-name {
+            font-weight: 700;
+            font-size: 0.95rem;
+        }
+
+        .testimonial-role {
+            color: var(--text-muted);
+            font-size: 0.8rem;
+        }
+
         /* Contact Section */
         .contact-content {
             max-width: 700px;
@@ -1135,6 +1203,27 @@
                         <h3>Responsive Landing Page</h3>
                         <p>A modern, mobile-first landing page built to practice Flexbox and CSS Grid layouts. Fully responsive across all screen sizes.</p>
                         <a href="https://github.com/solomondavid1369-blip" target="_blank" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <div class="section-header fade-in">
+            <h2>What People Say</h2>
+            <p>Feedback from people I've worked with</p>
+            <div class="section-line"></div>
+        </div>
+        <div class="testimonials-grid">
+            <div class="testimonial-card fade-in">
+                <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                <p class="quote-text">Solomon is a dependable, detail-oriented member of our team. He manages our website with real care, keeps our content accurate, and runs our Klaviyo email marketing reliably. He's proactive, takes ownership of his work, and is genuinely easy to work with.</p>
+                <div class="testimonial-author">
+                    <div class="testimonial-avatar">MP</div>
+                    <div>
+                        <div class="testimonial-name">MilkyPlant</div>
+                        <div class="testimonial-role">E-Commerce Brand — where I work as Email &amp; Website Coordinator</div>
                     </div>
                 </div>
             </div>
